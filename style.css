@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+.header ul li{
+    padding: 20px;
+    color: white;
+}
+.header ul li:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.slide-img{
+    margin-top: 50px;
+}
+.slide-img img{
+    width: 100%;
+    height: 700px;
+}
+.Top{
+    text-align: center;
+    padding: 10px;
+}
+.about{
+    margin: 0px 200px 0px 200px;
+    text-align: justify;
+    list-style-type: none;
+}
+.The-Bakery ul li{
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form button{
+    margin: 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.form button:hover{
+    background-color: gray;
+    color: black;
+}
+.Inform{
+    text-align: center;
+}
+.BF{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CB{
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px 100px 20px 100px;
+}
+.submit{
+    margin: 10px;
+    justify-content: center;
+}
+.button{
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+}
+.button:hover{
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 32px 15px 50px 15px;
+}
+.footer .footer-items{
+    width: 360px;
+    text-align: left;
+    padding: 14px 0px;
+}
+.footer .footer-items .content-ul{
+    display: flex;
+    padding: 16px 0px;
+}
+.footer .footer-items .content-ul:hover{
+    background-color: #cccccc;
+}
+.footer .footer-items .content-ul .sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 37px;
+}
+.footer .footer-items .content-ul span{
+    height: 10px;
+}
+.footer-items p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.footer-items .tag .key{
+    background-color: black;
+}
+.footer-items .tag span{
+    text-align: center;
+    background-color: #616161;
+    color: #ffff;
+    padding: 4px 10px 0px 10px;
+    margin: 4px 4px;
+}
